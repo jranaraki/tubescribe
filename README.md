@@ -69,9 +69,9 @@ tubescribe/
 │   └── vite.config.js
 ├── data/                 # Database and downloads
 ├── transcriptions/       # Cached transcriptions
-├── app.py               # Flask entry point
-├── requirements.txt     # Python dependencies
-└── README.md           # This file
+├── app.py                # Flask entry point
+├── environment.yml       # Python dependencies
+└── README.md             # This file
 ```
 
 ## Installation
