@@ -2,6 +2,8 @@
 
 An agentic web application for automatically transcribing, summarizing, and categorizing YouTube videos using AI. Built with Python, Flask, LangChain, and React.
 
+![screenshot.png](screenshot.png)
+
 ## Features
 
 - **YouTube Video Processing**: Download and transcribe YouTube videos automatically
