@@ -110,7 +110,7 @@ ollama serve
 
 Pull a model (e.g., Llama 3):
 ```bash
-ollama pull llama3
+ollama pull llama3.2:1b
 ```
 
 ### 3. Clone the Repository
@@ -124,13 +124,8 @@ cd tubescribe
 
 Create a virtual environment:
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate tubescribe
 ```
 
 Configure environment variables:
@@ -160,7 +155,7 @@ npm install
 
 From the project root:
 ```bash
-source venv/bin/activate  # Activate virtual environment
+conda activate tubescribe
 python app.py
 ```
 
